@@ -1,0 +1,89 @@
+/*@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');*/
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   /* font-family: 'Press Start 2P', sans-serif;
+   */
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eee;
+    background-color: #17ab3c;
+}
+header {
+  
+    position: relative;
+    height: 32vh;
+    border-bottom: 7px solid #eee;
+  }
+  .top_head{
+    margin: 20px;
+    display: flex;
+   justify-content: space-between;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+  }
+  .num{
+    display: block;
+    /* margin: 0 auto; */
+     text-align: center;
+     font-size: 30px;
+
+  }
+ 
+  input{
+    height: 50px;
+    width: 130px;
+    padding: 20px;
+    margin: 30px 20px 5px 50px ;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .right_main 
+  {
+    display: flex;
+    flex-direction: column;
+   /* margin-left: 50px;
+    font-size: 30px ;
+    font-weight: 600;
+ */
+  }
+  button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0 0 80px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 1s ease;
+  }
+  button:hover{
+
+    background-color: rgb(190, 190, 48);
+    font-size:21px ;
+    border: 1px solid rgb(165, 44, 44);
+
+  }
+ 
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .left_main {
+    margin: 40px;
+    font-size: 30px ;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+ 
